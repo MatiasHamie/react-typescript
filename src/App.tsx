@@ -5,6 +5,7 @@ import { Usuario } from "./components/Usuario";
 import { TimerPadre } from "./components/TimerPadre";
 // useReducer
 import { ContadorRed } from "./components/ContadorRed";
+import { Formulario } from "./components/Formulario";
 
 function App() {
   return (
@@ -21,8 +22,11 @@ function App() {
       <hr className="mx-auto" />
 
       <h2>useReducer</h2>
-
       <ContadorRed />
+      <hr className="mx-auto" />
+
+      <h2>Custom Hooks</h2>
+      <Formulario />
     </>
   );
 }
